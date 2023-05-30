@@ -1,8 +1,21 @@
-h1 {
-  color: rgb(77, 131, 133);
+.hero {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 100px 20px;
 }
-p {
+.hero h1 {
+  color: rgb(77, 131, 133);
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+}
+.hero p {
   color: rgb(66, 80, 134);
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+  font-family: "Tsukimi Rounded", sans-serif;
+  font-size: 30px;
+}
+.hero h3 {
+  color: rgb(66, 80, 134);
+  font-family: "Tsukimi Rounded", sans-serif;
+  font-size: 30px;
 }
