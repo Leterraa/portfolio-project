@@ -1,10 +1,13 @@
+:root {
+  --main-branding-color: rgb(77, 131, 133);
+}
 .hero {
   background-color: aliceblue;
   text-align: center;
   padding: 100px 20px;
 }
 .hero h1 {
-  color: rgb(77, 131, 133);
+  color: var(--main-branding-color);
   font-size: 100px;
   font-family: "Poppins", sans-serif;
 }
@@ -18,4 +21,25 @@
   color: rgb(66, 80, 134);
   font-family: "Tsukimi Rounded", sans-serif;
   font-size: 30px;
+}
+.btn-outline-secondary {
+  color: var(--main-branding-color);
+}
+.btn-outline-secondary:hover {
+  background-color: var(--main-branding-color);
+}
+.homepage p {
+  color: rgb(85, 81, 81);
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.project-description {
+  padding: 50px 60px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
