@@ -43,3 +43,12 @@
     text-align: center;
   }
 }
+.custom-text-color {
+  color: rgb(66, 80, 134);
+}
+.container h2 {
+  color: rgb(66, 80, 134);
+  font-family: "Tsukimi Rounded", sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
