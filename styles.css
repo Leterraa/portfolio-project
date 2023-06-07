@@ -101,3 +101,34 @@
 .smaller-image {
   max-height: 470px;
 }
+
+.content-container {
+  padding: 70px 20px;
+}
+
+.content h1 {
+  font-size: 60px;
+  line-height: 80px;
+  font-family: "Poppins", sans-serif;
+  color: var(--main-branding-color);
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: "Tsukimi Rounded", sans-serif;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  color: rgb(66, 80, 134);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
+}
